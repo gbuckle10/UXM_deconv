@@ -1,18 +1,16 @@
 
-import os
-import sys
-import time
-import pandas as pd
-import os.path as op
-import argparse
-import subprocess
-import multiprocessing
-from multiprocessing import Pool
-import hashlib
 import gzip
+import hashlib
+import os
+import os.path as op
+import subprocess
+import sys
 import tempfile
+import time
+from multiprocessing import Pool
 from pathlib import Path
 
+import pandas as pd
 
 dpath = str(Path(op.realpath(__file__)).parent.parent)
 DEF_TMP_DIR = op.join(dpath, 'tmp_dir')

@@ -1,16 +1,13 @@
 #!/usr/bin/python3 -u
 
-import os
-import sys
-import pandas as pd
 import getpass
-import os.path as op
+
 import numpy as np
-import argparse
-from homog_mem import *
+import pandas as pd
+
 from build import load_markers
 from deconv import load_pats_homog
-
+from homog_mem import *
 
 
 def decon_single_samp(samp, counts, weighted, verbose, debug=False):

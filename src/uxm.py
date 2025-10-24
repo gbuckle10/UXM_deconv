@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import sys
 import argparse
 import importlib
+import sys
 from unittest.mock import patch
 
 VERSION = '0.1.0'

@@ -1,13 +1,8 @@
 #!/usr/bin/python3 -u
 
-import os
-import sys
-import pandas as pd
 import numpy as np
-import os.path as op
-import argparse
-import subprocess
-from multiprocessing import Pool
+import pandas as pd
+
 from homog_mem import *
 
 

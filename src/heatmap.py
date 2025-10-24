@@ -1,12 +1,12 @@
 #!/usr/bin/python3 -u
 
+import argparse
 import os
 import os.path as op
-import argparse
 import subprocess
 import tempfile
-from homog_mem import eprint, validate_file
 
+from homog_mem import eprint, validate_file
 
 
 def main():

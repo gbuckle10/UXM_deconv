@@ -1,11 +1,12 @@
 #!/usr/bin/python3 -u
 
-import pandas as pd
-import numpy as np
-import os.path as op
 import math
 import os
+
 import matplotlib
+import numpy as np
+import pandas as pd
+
 if 'DISPLAY' not in os.environ.keys():
     matplotlib.use('Agg')
 import matplotlib.pylab as plt

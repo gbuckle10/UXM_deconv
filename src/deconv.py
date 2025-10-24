@@ -1,14 +1,11 @@
 #!/usr/bin/python3 -u
 
-import os
-import sys
-import pandas as pd
-import getpass
-import os.path as op
 import numpy as np
-import argparse
+import pandas as pd
 from scipy import optimize
+
 from homog_mem import *
+
 
 def validate_ref_tissues(df, tissue_list):
     for col in tissue_list:
